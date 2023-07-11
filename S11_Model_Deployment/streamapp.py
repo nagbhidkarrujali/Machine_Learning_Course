@@ -69,7 +69,7 @@ def app_layout():
                               ownertype, 
                               kmdriven, 
                               age)
-        st.success(f'Explected resale value of the car is : INR {np.round(price, 2)} Lakhs')
+        st.success(f'Expected resale value of the car is : INR {np.round(price, 2)} Lakhs')
  
 if __name__=='__main__':
   app_layout()
